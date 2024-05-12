@@ -1,3 +1,57 @@
 @import "./variables/variables";
 @import "./mixin/all-mixin";
 @import "./all blocks/all-blocks";
+
+.main-section{
+    .main-section__items{
+        text-align: center;
+        .main-section-items__main-card{
+            padding:0 50px;
+            @include flex-between;
+            div{
+                width: 200px;
+                height: 400px;
+            }
+            div:first-child{
+                background-image: url(../assets/img/Frame\ 999.png);
+            }
+            div:nth-child(2){
+                background-image: url(../assets/img/Frame\ 1000.png);
+            }
+            div:nth-child(3){
+                background-image: url(../assets/img/Frame\ 1001.png);
+            }
+            div:nth-child(4){
+                background-image: url(../assets/img/Frame\ 1002.png);
+            }
+            div:nth-child(5){
+                background-image: url(../assets/img/Frame\ 1003.png);
+            }
+            div:nth-child(6){
+                background-image: url(../assets/img/Frame\ 1004.png);
+            }
+        }
+        .main-section-items__title{
+            margin: 0 auto;
+            width: 950px;
+            i{
+                font-size: 20px
+            }
+        }
+    }
+}
+
+.footer-items{
+    @include flex-between;
+    padding: 20px 50px;
+    .footer-items__nav-items{
+        width: 500px;
+        .fotter-items__navigation-items{
+            @include flex-between;
+            li{
+                font-weight: 800;
+                list-style-type: none;
+            }
+        }
+    }
+}
