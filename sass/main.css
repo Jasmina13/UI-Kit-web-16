@@ -68,8 +68,11 @@ body {
   background-image: url(../assets/img/Frame\ 1004.png);
 }
 .main-section .main-section__items .main-section-items__title {
-  margin: 0 auto;
+  margin: 30px auto;
   width: 950px;
+}
+.main-section .main-section__items .main-section-items__title p {
+  line-height: 1.5;
 }
 .main-section .main-section__items .main-section-items__title i {
   font-size: 20px;

@@ -32,8 +32,11 @@
             }
         }
         .main-section-items__title{
-            margin: 0 auto;
+            margin: 30px auto;
             width: 950px;
+            p{
+                line-height: 1.5;
+            }
             i{
                 font-size: 20px
             }
